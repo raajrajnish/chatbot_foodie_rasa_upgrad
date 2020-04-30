@@ -1,6 +1,7 @@
 actions:
 - action_search_restaurants
-- action_send_user_mail
+- action_send__mail
+- action_verify_location
 - utter_ask_cuisine
 - utter_ask_email
 - utter_ask_howcanhelp
@@ -11,13 +12,16 @@ actions:
 - utter_greet
 entities:
 - cuisine
+- cuisine_ok
+- email
 - location
-- people
+- location_ok
 - price
 intents:
 - restaurant_search
-- sendmail
+- email
 - greet
+- sendmail
 - affirm
 - goodbye
 - stop
@@ -38,11 +42,11 @@ responses:
       title: North Indian
     text: what kind of cuisine would you like?
   utter_ask_email:
-  - text: Please provide your email so that we can send top 10 restaurants in your location?
+  - text: Do you want this information on your email,please give me your email id?
   utter_ask_howcanhelp:
   - text: how can I help you?
   utter_ask_location:
-  - text: In what location?
+  - text: In which city are you looking for restaurants?
   utter_ask_price_range:
   - buttons:
     - payload: Lesser than Rs. 300
@@ -70,6 +74,8 @@ slots:
   email:
     type: text
   location:
+    type: text
+  location_ok:
     type: text
   price:
     type: text

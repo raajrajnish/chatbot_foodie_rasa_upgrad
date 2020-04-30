@@ -11,10 +11,6 @@
 - great choice
 - sounds really good
 - thanks
-- yes.PLease send it on my email [raajrajnish@gmail.com](email)
-- PLease send it on my email [raajrajnish@gmail.com](email)
-- send it on my email [raajrajnish@gmail.com](email)
-- [raajrajnish@gmail.com](email)
 
 ## intent:goodbye
 - bye
@@ -37,6 +33,10 @@
 - dear sir
 
 ## intent:restaurant_search
+- [bangalore](location)
+- [pune](location)
+- [Bangalore](location)
+- [Pune](location)
 - i'm looking for a place to eat
 - I want to grab lunch
 - I am searching for a dinner spot
@@ -151,8 +151,9 @@
 - [Chinese](cuisine:chinese)
 - [chinese](cuisine)
 - [Lithuania](location)
+- my email is [raajrajnish@gmail.com](email)
 - [raajrajnish@gmail.com](email)
-- yes.PLease send it on my email [raajrajnish@gmail.com](email)
+- yes.Please send it on my email [raajrajnish@gmail.com](email)
 - Please send it on my email [raajrajnish@gmail.com](email)
 - send it on my email [raajrajnish@gmail.com](email)
 - Oh, sorry, in [Italy](location)
@@ -179,9 +180,17 @@
 - [delhi](location:Delhi)
 - [Chinese](cuisine:chinese)
 - [Lesser than Rs. 300](price)
+- [ahmedabad](location:Ahmedabad)
+- [chennai](location:Chennai)
+- [hyderabad](location:Hyderabad)
+- [kolkata](location:Kolkata)
+- [mumbai](location:Mumbai)
+- [pune](location:Pune)
+- I’m hungry. Looking out for some good restaurants
+- [samastipur](location)
 
 ## intent:sendmail
-- raajrajnish@gmail.com
+- [raajrajnish@gmail.com](email)
 
 ## synonym:4
 - four
