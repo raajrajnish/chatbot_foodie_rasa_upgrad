@@ -10,8 +10,8 @@ def send_mail_gmail(body,recivermail,mailsubject):
     s = smtplib.SMTP('smtp.gmail.com', 587)
     # start TLS for security
 
-    sender_address = "raajrajnish@gmail.com"
-    sender_pass = 'lr201203m'
+    sender_address = "####" # enter senders mail
+    sender_pass = '######' # password
     receiver_address = recivermail
 
 
